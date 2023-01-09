@@ -1,15 +1,20 @@
 {% extends 'base.html' %}
 
 {% block title %}
-About
+Добавление адреса
 {% endblock %}
 
 {% block body %}
-<div class="conteiner">
+<div class="container">
     <h1>Добавление адреса</h1>
     <form method="post">
         <input type="text" name="adress" id="adress" class="form-control"><br>
         <input type="submit" class="btn-succes" value="Добавить">
+    </form>
+    <h1>Добавление файла csv</h1>
+    <form method="post">
+        <input type="text" name="adress" id="adress" class="form-control"><br>
+        <input type="submit" class="btn-succes" value="Добавить фаил">
     </form>
 </div>
 {% endblock %}

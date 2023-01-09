@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Search
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Поис по id</h1>
+    <form method="post">
+        <input type="text" name="adress" id="adress" class="form-control"><br>
+        <input type="submit" class="btn-succes" value="Искать">
+    </form>
+</div>
+{% endblock %}
